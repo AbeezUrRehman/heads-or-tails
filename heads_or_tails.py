@@ -18,9 +18,9 @@ def play_game():
     print(f"Heads: {heads}, Tails: {tails}")
 
     if heads > tails:
-        print("You won!")
+        print(f"{name} won!")
     else:
-        print("You lost!")
+        print(f"{name} lost!")
 
 if __name__ == "__main__":
     play_game()
